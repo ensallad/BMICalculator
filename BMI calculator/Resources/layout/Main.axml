@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Height(Cm)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textHeight"
+        android:gravity="center" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heightAdder"
+        android:text="0"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+    <TextView
+        android:text="Weight(Kg)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textWeight"
+        android:layout_marginTop="50dp"
+        android:gravity="center" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weightAdder"
+        android:text="0"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultText"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" />
+    <Button
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calcBtn"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#ff228b22"
+        android:height="140dp" />
+    
+</LinearLayout>
